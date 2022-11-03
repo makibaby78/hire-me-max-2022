@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  padding: 0 10px;
+  font-family: 'Montserrat', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p, span, td{
+  font-size: 14px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box-wrapper{
   display: flex;
-  flex-direction: column;
+  height: 80vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.box{
+  position: relative;
+  width: 800px;
+  max-width: 90%;
+  background-color: #282828;
+}
+.fc-1{
+  color: #878787;
+}
+.fc-2{
+  color: #4ca5d0;
+}
+.sm-links {
+  position: absolute;
+  top: -42px;
+  right: -1px;
+  display: flex;
+}
+.sml-item {
+  border: 1px solid transparent;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.sml-item.btn-theme svg, .sml-item.fb svg {
+  cursor: pointer;
+  color: #3b3b3b;
+  transition-duration: 0.2s;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.sml-item.btn-theme svg:hover, .sml-item.fb svg:hover {
+  color: #c3c4c3;
+  transition-duration: 0.2s;
+}
+
+@media screen and (max-width: 992px) {
+  p, span, td{
+      font-size: 14px;
   }
-  to {
-    transform: rotate(360deg);
+  h1{
+      font-size: 40px;
+  }
+  h2 {
+      font-size: 30px;
+  }
+  h3 {
+      font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 600px) {
+  p, span, td{
+      font-size: 12px;
+  }
+  h1{
+      font-size: 32px;
+  }
+  h2 {
+      font-size: 25px;
+  }
+  h3 {
+      font-size: 16px;
+  }
+  h4{
+      font-size: 13px;
+  }
+  button {
+      padding: 10px 15px
   }
 }
