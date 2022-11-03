@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hire-me-max-2022/static/css/main.13b2c6f5.css",
+    "main.js": "/hire-me-max-2022/static/js/main.0a5097a5.js",
+    "static/js/787.cda612ba.chunk.js": "/hire-me-max-2022/static/js/787.cda612ba.chunk.js",
+    "index.html": "/hire-me-max-2022/index.html",
+    "main.13b2c6f5.css.map": "/hire-me-max-2022/static/css/main.13b2c6f5.css.map",
+    "main.0a5097a5.js.map": "/hire-me-max-2022/static/js/main.0a5097a5.js.map",
+    "787.cda612ba.chunk.js.map": "/hire-me-max-2022/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13b2c6f5.css",
+    "static/js/main.0a5097a5.js"
+  ]
+}
