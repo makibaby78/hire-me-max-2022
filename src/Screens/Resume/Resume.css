@@ -56,3 +56,14 @@
 .bi-it-resume{
     background-color: #6ca338;
 }
+.resume-content.hide{
+    color: transparent;
+    margin-top: 0px;
+    height: 0;
+    transition-duration: 0.3s;
+}
+.resume-content.show{
+    margin-top: 60px;
+    height: 350px;
+    transition-duration: 0.3s;
+}

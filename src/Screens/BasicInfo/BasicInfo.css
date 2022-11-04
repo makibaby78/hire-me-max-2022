@@ -150,6 +150,10 @@ img.bi-pic-owner.show {
         transition-duration: 0.3s;
     }
     .basic-wrapper.hide {
-        height: 140px;
+        height: 120px;
+    }
+    .bi-title-text.hide {
+        margin-left: -116px;
+        transition-duration: 0.3s;
     }
   }

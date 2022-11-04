@@ -22,6 +22,9 @@ function Contacts() {
                 { hide === "hide" ? <FaLock /> : <FaLockOpen /> }
             </button>
         </div>
+        <div className={`contact-content ${hide}`}>
+            Test
+        </div>
     </div>
   )
 }

@@ -22,6 +22,9 @@ function Resume() {
                 { hide === "hide" ? <FaLock /> : <FaLockOpen /> }
             </button>
         </div>
+        <div className={`resume-content ${hide}`}>
+            Test
+        </div>
     </div>
   )
 }

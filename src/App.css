@@ -11,16 +11,14 @@ p, span, td{
   font-size: 14px;
 }
 .box-wrapper{
-  display: flex;
-  height: 80vh;
-  align-items: center;
-  justify-content: center;
+  margin-top: 150px;
 }
 .box{
   position: relative;
   width: 800px;
   max-width: 90%;
   background-color: #282828;
+  margin: auto;
 }
 .fc-1{
   color: #878787;
