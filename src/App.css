@@ -10,8 +10,11 @@ body{
 p, span, td{
   font-size: 14px;
 }
-.box-wrapper{
+.box-wrapper {
   margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 40px;
+  margin-right: -17px;
 }
 .box{
   position: relative;
@@ -25,6 +28,12 @@ p, span, td{
 }
 .fc-2{
   color: #4ca5d0;
+}
+.fc-3{
+  color: #000 !important;
+}
+.fc-4{
+  color: #878787;
 }
 .sm-links {
   position: absolute;

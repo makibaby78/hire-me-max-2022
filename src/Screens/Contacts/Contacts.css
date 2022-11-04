@@ -7,12 +7,97 @@
 
 .contact-content.hide{
     color: transparent;
-    margin-top: 0px;
     height: 0;
     transition-duration: 0.3s;
 }
 .contact-content.show{
-    margin-top: 60px;
-    height: 350px;
+    height: 750px;
     transition-duration: 0.3s;
+}
+.contact-content{
+    overflow: hidden;
+    margin-top: 60px;
+}
+.contact-wrapper.hide{
+    max-height: 60px;
+    transition-duration: 0.3s;
+}
+.contact-wrapper.show {
+    max-height: 820px;
+    transition-duration: 0.3s;
+}
+
+.li-wrapper label, .li-wrapper input {
+    display: block;
+}
+.li-wrapper label, .btn-ci{
+    padding: 5px 0;
+}
+.li-wrapper input{
+    height: 40px;
+}
+.li-wrapper input, .li-wrapper textarea {
+    border: 2px solid #3b3b3b;
+    background-color: #1e1e1e;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+}
+.li-wrapper textarea{
+    height: 130px;
+}
+.ci-wrapper {
+    display: flex;
+    width: 100%;
+    column-gap: 20px;
+}
+.ne-wrapper {
+    display: flex;
+    column-gap: 20px;
+}
+.btn-ci {
+    margin-top: 10px;
+    background: #3b3b3b;
+    color: #646464;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.ci-c-wrapper {
+    margin-top: 20px;
+}
+.ci-card {
+    background-color: #fff !important;
+    border: 1px solid;
+    width: 50%;
+    padding: 18px;
+    height: fit-content;
+}
+.ci-card h4 {
+    position: relative !important;
+    color: #000 !important;
+    border-bottom: 1px solid #87878785;
+    padding-bottom: 15px;
+}
+.ci-card svg {
+    color: #878787;
+    background-color: #1414143d;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 3px;
+}
+.icon-details {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    column-gap: 5px;
+}
+
+.ci-c-header {
+    background-color: #373737;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
 }
