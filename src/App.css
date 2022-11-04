@@ -57,7 +57,9 @@ p, span, td{
   color: #c3c4c3;
   transition-duration: 0.2s;
 }
-
+.mb-20{
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 992px) {
   p, span, td{
       font-size: 14px;
