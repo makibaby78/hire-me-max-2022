@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hire-me-max-2022/static/css/main.0019cb82.css",
-    "main.js": "/hire-me-max-2022/static/js/main.fe9bd63c.js",
+    "main.css": "/hire-me-max-2022/static/css/main.8877b028.css",
+    "main.js": "/hire-me-max-2022/static/js/main.1afeeb2b.js",
     "static/js/787.cda612ba.chunk.js": "/hire-me-max-2022/static/js/787.cda612ba.chunk.js",
     "index.html": "/hire-me-max-2022/index.html",
-    "main.0019cb82.css.map": "/hire-me-max-2022/static/css/main.0019cb82.css.map",
-    "main.fe9bd63c.js.map": "/hire-me-max-2022/static/js/main.fe9bd63c.js.map",
+    "main.8877b028.css.map": "/hire-me-max-2022/static/css/main.8877b028.css.map",
+    "main.1afeeb2b.js.map": "/hire-me-max-2022/static/js/main.1afeeb2b.js.map",
     "787.cda612ba.chunk.js.map": "/hire-me-max-2022/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0019cb82.css",
-    "static/js/main.fe9bd63c.js"
+    "static/css/main.8877b028.css",
+    "static/js/main.1afeeb2b.js"
   ]
 }
