@@ -30,7 +30,7 @@ function App() {
                     { theme==='light' ? <FaSun /> : <FaMoon /> }
                   </div>
                   <div className='sml-item fb'>
-                    <FaFacebookF />
+                  <a href='https://www.facebook.com/maxloued.baisac/'><FaFacebookF /></a>
                   </div>
                   <div className='sml-item fb'>
                     <FaTwitter />

@@ -86,8 +86,129 @@ function Resume() {
                 <p className='mb-20 fc-1'>After I served as a volunteer missionary for The Church of Jesus Christ of Latter-day Saints (Mormons 2016-2018). I pursued my associate's degree because I was fascinated in creating and building software. In the process, I learned to love coding.</p>
             </div>
             <div className='resume-right'>
-                <div className=''>
-                    <h5>PROGRAMMING SKILLS</h5>
+                <div className='ps-sec rr-content'>
+                    <h5 className='mb-10'>PROGRAMMING SKILLS</h5>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>Wordpress</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-wp'>70%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>PHP</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-php'>30%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>Javascript</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-wp'>80%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>HTML</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-html'>90%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>CSS</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-css'>93%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>MySQL</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-sql'>30%</div>
+                        </div>
+                    </div>
+                </div>
+                <div className='waf-sec rr-content'>
+                    <h5 className='mb-10'>Web application framework</h5>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>Laravel</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-lara'>30%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>React JS</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-rjs'>60%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>Express JS</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-ejs'>45%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>Bootstrap</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-bts'>80%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>JQuery</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-jq'>60%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>Tailwind CSS</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-tw'>60%</div>
+                        </div>
+                    </div>
+                </div>
+                <div className='gs-sec rr-content'>
+                    <h5 className='mb-10'>GRAPHIC SKILLS</h5>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>Photoshop</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-ps'>40%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
+                        <span className='skills-title fc-4'>Video Editing</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-ve'>60%</div>
+                        </div>
+                    </div>
+                </div>
+                <div className='o-sec rr-content'>
+                    <h5 className='mb-10'>OTHERS</h5>
+                    <div className='db-stb'>
+                        <div className='skills-tb'>
+                            <span className='skills-title fc-4'>Ontraport</span>
+                            <div className='skills-bar'>
+                                <div className='skills-bar-rate skills-bar-wp'>80%</div>
+                            </div>
+                        </div>
+                        <div className='skills-tb'>
+                            <span className='skills-title fc-4'>ClickFunnels</span>
+                            <div className='skills-bar'>
+                                <div className='skills-bar-rate skills-bar-cf'>80%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='db-stb'>
+                        <div className='skills-tb'>
+                            <span className='skills-title fc-4'>Wix</span>
+                            <div className='skills-bar'>
+                                <div className='skills-bar-rate skills-bar-wx'>80%</div>
+                            </div>
+                        </div>
+                        <div className='skills-tb'>
+                            <span className='skills-title fc-4'>Leadpages</span>
+                            <div className='skills-bar'>
+                                <div className='skills-bar-rate skills-bar-lp'>80%</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

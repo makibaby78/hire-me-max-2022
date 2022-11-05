@@ -80,7 +80,7 @@
 }
 .resume-content.show{
     margin-top: 60px;
-    height: 950px;
+    height: 1050px;
     transition-duration: 0.3s;
 }
 .rc-header svg {
@@ -90,11 +90,14 @@
     background-color: #4ca5d0;
 }
 .resume-left {
-    width: calc(60% - 10px);
+    width: calc(70% - 10px);
     line-height: 1.5;
 }
 .resume-right {
-    width: calc(40% - 10px);
+    width: calc(30% - 10px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
 }
 .employment-title svg {
     background-color: #4ca5d0;
@@ -124,6 +127,76 @@
 }
 .employment-title h4{
     position: relative !important;
+}
+.skills-bar {
+    background-color: #3b3b3b;
+    height: 16px;
+    width: 100%;
+    position: relative;
+}
+.skills-bar-rate {
+    height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    font-weight: 600;
+}
+.db-stb {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+}
+.ps-sec .skills-bar-rate{
+    background-color: #327ea3;
+}
+.waf-sec .skills-bar-rate{
+    background-color: #6ca338;
+}
+.gs-sec .skills-bar-rate{
+    background-color: #ffbc38;
+}
+.o-sec .skills-bar-rate{
+    background-color: #e82c0c;
+}
+.skills-bar-sql, .skills-bar-lara, .skills-bar-php{
+    width: 30%;
+}
+.skills-bar-ps{
+    width: 40%;
+}
+.skills-bar-ejs{
+    width: 45%;
+}
+.skills-bar-rjs, .skills-bar-jq, .skills-bar-tw, .skills-bar-ve{
+    width: 60%;
+}
+.skills-bar-wp{
+    width: 70%;
+}
+.skills-bar-bts, .skills-bar-wx, .skills-bar-cf, .skills-bar-op, .skills-bar-lp{
+    width: 80%;
+}
+.skills-bar-html{
+    width: 90%;
+}
+.skills-bar-css{
+    width: 93%;
+}
+span.skills-title {
+    font-weight: 600;
+    font-size: 12px;
+}
+.skills-tb {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 5px 0;
+    width: 100%;
 }
 @media screen and (max-width: 768px) {
     .resume-content {

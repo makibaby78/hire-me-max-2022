@@ -63,8 +63,8 @@ img.bi-pic-owner {
     row-gap: 30px;
     overflow: hidden;
 }
-.basic-wrapper.show{
-    height: 380px;
+.basic-wrapper.show {
+    height: 330px;
     transition-duration: 0.3s;
 }
 td.bi-left {

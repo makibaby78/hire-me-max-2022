@@ -14,7 +14,6 @@ p, span, td{
   margin-top: 150px;
   margin-bottom: 150px;
   margin-left: 40px;
-  margin-right: -17px;
 }
 .box{
   position: relative;
@@ -59,6 +58,9 @@ p, span, td{
 }
 .mb-20{
   margin-bottom: 20px;
+}
+.mb-10{
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 992px) {
   p, span, td{

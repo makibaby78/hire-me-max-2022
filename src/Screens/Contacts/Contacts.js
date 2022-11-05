@@ -56,7 +56,7 @@ function Contacts() {
                             <button className='btn-ci'>Submit</button>
                         </div>
                         <div className='ci-card'>
-                            <h5>CONTACT INFO</h5>
+                            <h4 className='fc-3'>CONTACT INFO</h4>
                             <div className='icon-details'>
                                 <div className='icon-wrapp'><FaHouseUser /></div> 
                                 <div className='details-wrapp'>
@@ -72,13 +72,13 @@ function Contacts() {
                             <div className='icon-details'>
                                 <div className='icon-wrapp'><FaHouseUser /></div>
                                 <div className='details-wrapp'>
-                                    <span className='fc-1'>raindrops.dark@gmail.com</span>
+                                    <span className='fc-1'>max.baisac@gmail.com</span>
                                 </div>
                             </div>
                             <div className='icon-details'>
                                 <div className='icon-wrapp'><FaGlobeAsia /></div> 
                                 <div className='details-wrapp'></div>
-                                    <span className='fc-1'>https://makibaby78.github.io/hire-me-max-2022/</span>
+                                    <span className='fc-1'><a href="https://makibaby78.github.io/hire-me-max-2022/">https://makibaby78.github.io/hire-me-max-2022/</a></span>
                                 </div>
                             </div>
                         </div>
