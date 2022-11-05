@@ -53,7 +53,7 @@ function BasicInfo() {
                         </tr>
                         <tr className='bi-info'>
                             <td className='bi-left'>Phone:</td>
-                            <td className='bi-right fc-1'>09453529874</td>
+                            <td className='bi-right fc-1'>09922791830</td>
                         </tr>
                     </tbody>
                 </table>

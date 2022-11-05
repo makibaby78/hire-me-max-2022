@@ -66,7 +66,7 @@ function Contacts() {
                             <div className='icon-details'>
                                 <div className='icon-wrapp'><FaPhoneAlt /></div> 
                                 <div className='details-wrapp'>
-                                    <span className='fc-1'>09453529874</span>
+                                    <span className='fc-1'>09922791830</span>
                                 </div>
                             </div>
                             <div className='icon-details'>
