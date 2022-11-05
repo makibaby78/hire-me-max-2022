@@ -178,7 +178,7 @@
 .skills-bar-wp{
     width: 70%;
 }
-.skills-bar-bts, .skills-bar-wx, .skills-bar-cf, .skills-bar-op, .skills-bar-lp{
+.skills-bar-bts, .skills-bar-wx, .skills-bar-cf, .skills-bar-op, .skills-bar-lp, .skills-bar-op{
     width: 80%;
 }
 .skills-bar-html{
@@ -209,4 +209,61 @@ span.skills-title {
     .resume-right {
         width: 100%;
     }
+    .resume-wrapper.show {
+        max-height: 1920px;
+    }
+    .resume-content.show{
+        height: 2050px;
+    }
+    .resume-content {
+        justify-content: unset;
+    }
 }
+@media screen and (max-width: 600px) {
+    .resume-wrapper.show {
+        max-height: 1900px;
+    }
+    .resume-content.show{
+        height: 2000px;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .resume-wrapper.show {
+        max-height: 1980px;
+    }
+    .resume-content.show{
+        height: 2050px;
+    }
+  }
+  @media screen and (max-width: 437px) {
+    .resume-wrapper.show {
+        max-height: 2100px;
+    }
+    .resume-content.show{
+        height: 2200px;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .resume-wrapper.show {
+        max-height: 2100px;
+    }
+    .resume-content.show{
+        height: 2250px;
+    }
+  }
+  @media screen and (max-width: 370px) {
+    .resume-wrapper.show {
+        max-height: 2200px;
+    }
+    .resume-content.show{
+        height: 2300px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .resume-wrapper.show {
+        max-height: 2300px;
+    }
+    .resume-content.show{
+        height: 2400px;
+    }
+  }
