@@ -48,7 +48,7 @@ function Resume() {
                     </div>
                     <div className='employment-date'><span className=' fc-1'>2016 - 2018</span></div>
                 </div>
-                <p className='mb-20 fc-1'>I maintained multiple websites run by Wordpress and React JS framework. This involves designing, e-commerce/woocommerce, UI/UX and etc.</p>
+                <p className='mb-20 fc-1'>Over the course of two years, while serving as a full-time missionary for The Church of Jesus Christ of Latter-day Saints, I honed my leadership and communication abilities.</p>
                 <div className='icon-down rc-header icon-down'>
                     <FaAngleDown /><h5>EDUCATION</h5>
                 </div>
@@ -185,7 +185,7 @@ function Resume() {
                         <div className='skills-tb'>
                             <span className='skills-title fc-4'>Ontraport</span>
                             <div className='skills-bar'>
-                                <div className='skills-bar-rate skills-bar-wp'>80%</div>
+                                <div className='skills-bar-rate skills-bar-op'>80%</div>
                             </div>
                         </div>
                         <div className='skills-tb'>
