@@ -12,7 +12,13 @@
     margin-top: 40px;
 }
 .messages-content h3{
+    padding-top: 10px;
+}
+.m-p1{
     padding: 10px 0;
+}
+.m-p1 span{
+    font-size: 12px;
 }
 .messages-content.hide{
     color: transparent;

@@ -33,9 +33,9 @@ function Messages() {
                 {messages.map((anyNameYouWant, index)=>{
                     return(
                         <div className='m-wrapper' key={index}>
-                            <div className=''>
+                            <div className='m-p1'>
                                 <h3>{anyNameYouWant.name}</h3>
-                                <span className='m-date'>{anyNameYouWant.dateCreated}</span>
+                                <span className='m-date fc-1'>{anyNameYouWant.dateCreated}</span>
                             </div>
                             <p className='fc-1'>"{anyNameYouWant.message}"</p>
                         </div>
