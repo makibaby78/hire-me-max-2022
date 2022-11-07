@@ -7,6 +7,7 @@ import { FaMoon, FaSun, FaFacebookF, FaGoogle, FaTwitter, FaLinkedinIn, FaDribbb
 import Resume from './Screens/Resume/Resume';
 import Portfolio from './Screens/Portfolio/Portfolio';
 import Contacts from './Screens/Contacts/Contacts';
+import Messages from './Screens/Messages/Messages';
 
 const StyledApp = styled.div`
   color: ${(props) => props.theme.fontColor}
@@ -55,6 +56,7 @@ function App() {
                 <Resume />
                 <Portfolio />
                 <Contacts />
+                <Messages />
               </div>
           </div>
       </StyledApp>

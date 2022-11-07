@@ -1,0 +1,36 @@
+.bi-it-messages{
+    background-color: #327ea3;
+}
+.bi-icon-mes{
+    background-color: #327ea3;
+}
+.m-wrapper{
+    padding: 20px 0;
+}
+.messages-content {
+    overflow: hidden;
+    margin-top: 60px;
+}
+.messages-content h3{
+    padding: 10px 0;
+}
+.messages-content.hide{
+    color: transparent;
+    height: 0;
+    transition-duration: 0.3s;
+}
+.messages-content.show{
+    height: 350px;
+    transition-duration: 0.3s;
+}
+.messages-list {
+    width: 100%;
+}
+.messages-wrapper.hide {
+    max-height: 60px;
+    transition-duration: 0.3s;
+}
+.messages-wrapper.show {
+    max-height: 470px;
+    transition-duration: 0.3s;
+}

@@ -98,8 +98,4 @@ p, span, td{
   button {
       padding: 10px 15px
   }
-  .resume-wrapper.show {
-    max-height: 1350px;
-    transition-duration: 0.3s;
-  }
 }
