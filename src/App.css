@@ -34,6 +34,9 @@ p, span, td{
 .fc-4{
   color: #878787;
 }
+.fc-5{
+  color: #fff;
+}
 .sm-links {
   position: absolute;
   top: -42px;
