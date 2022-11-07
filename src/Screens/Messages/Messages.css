@@ -9,7 +9,7 @@
 }
 .messages-content {
     overflow: hidden;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .messages-content h3{
     padding: 10px 0;
@@ -20,7 +20,7 @@
     transition-duration: 0.3s;
 }
 .messages-content.show{
-    height: 350px;
+    height: 530px;
     transition-duration: 0.3s;
 }
 .messages-list {
@@ -31,6 +31,6 @@
     transition-duration: 0.3s;
 }
 .messages-wrapper.show {
-    max-height: 470px;
+    max-height: 650px;
     transition-duration: 0.3s;
 }

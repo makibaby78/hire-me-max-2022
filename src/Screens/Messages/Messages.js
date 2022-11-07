@@ -37,7 +37,7 @@ function Messages() {
                                 <h3>{anyNameYouWant.name}</h3>
                                 <span className='m-date'>{anyNameYouWant.dateCreated}</span>
                             </div>
-                            <p>"{anyNameYouWant.message}"</p>
+                            <p className='fc-1'>"{anyNameYouWant.message}"</p>
                         </div>
                     )
                 })}
