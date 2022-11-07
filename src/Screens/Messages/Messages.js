@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Axios from 'axios'
-import { FaLockOpen, FaLock, FaBriefcase } from 'react-icons/fa';
+import { FaLockOpen, FaLock, FaEnvelopeOpen } from 'react-icons/fa';
 import './Messages.css';
 
 function Messages() {
@@ -20,7 +20,7 @@ function Messages() {
         <div className={`messages-wrapper resume-wrapper cs ${hide}`}>
             <div className={`bi-it-cs bi-it-messages ${hide}`} >
                 <button className={`bi-icon-cs bi-icon-mes ${hide}`} onClick={()=>themeToggler()}>
-                    <FaBriefcase />
+                    <FaEnvelopeOpen />
                 </button>
             </div>
             <h4>MESSAGES</h4>
@@ -32,7 +32,7 @@ function Messages() {
             <div className={`messages-content ${hide}`}>
                 {messages.map((anyNameYouWant, index)=>{
                     return(
-                        <div key={index}>
+                        <div className='m-wrapper' key={index}>
                             <div className=''>
                                 <h3>{anyNameYouWant.name}</h3>
                                 <span className='m-date'>{anyNameYouWant.dateCreated}</span>
