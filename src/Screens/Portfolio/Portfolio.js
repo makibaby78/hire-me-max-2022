@@ -28,6 +28,7 @@ function Portfolio() {
                     <a href="https://makibaby78.github.io/clavs/" target="_blank" rel="noreferrer">
                         <div className='pwi'>
                             <h5>Shopping Website</h5>
+                            <h5>React JS</h5>
                         </div>
                     </a>
                 </div>
@@ -42,6 +43,19 @@ function Portfolio() {
                     <a href="https://makibaby78.github.io/hostagame/" target="_blank" rel="noreferrer">
                         <div className='pwi'>
                             <h5>BlackJack</h5>
+                            <h5>Vanilla JS</h5>
+                        </div>
+                    </a>
+                </div>
+                <div className='portfolio-list-wrapper pl-4'>
+                    <a href="https://xo-app.au.meteorapp.com/" target="_blank" rel="noreferrer">
+                        <div className='pwi'>
+                            <h5>TiktakToe</h5>
+                            <h5>React JS - Meteor JS</h5>
+                            <span>Login System</span>
+                            <span>Realtime Webapp</span>
+                            <span>Chat System</span>
+                            <span>Upload System</span>
                         </div>
                     </a>
                 </div>

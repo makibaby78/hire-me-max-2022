@@ -140,6 +140,12 @@ function Resume() {
                         </div>
                     </div>
                     <div className='skills-tb'>
+                        <span className='skills-title fc-4'>Meteor JS</span>
+                        <div className='skills-bar'>
+                            <div className='skills-bar-rate skills-bar-rjs'>60%</div>
+                        </div>
+                    </div>
+                    <div className='skills-tb'>
                         <span className='skills-title fc-4'>Express JS</span>
                         <div className='skills-bar'>
                             <div className='skills-bar-rate skills-bar-ejs'>45%</div>
